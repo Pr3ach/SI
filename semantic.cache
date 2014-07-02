@@ -1,0 +1,25 @@
+;; Object semantic.cache
+;; SEMANTICDB Tags save file
+(semanticdb-project-database "semantic.cache"
+  :file "semantic.cache"
+  :tables (list 
+   (semanticdb-table "core.c"
+    :file "core.c"
+    :pointmax 10012
+    :major-mode 'c-mode
+    :tokens '(("Windows.h" include t nil nil [1 21]) ("stdio.h" include t nil nil [22 40]) ("stdlib.h" include t nil nil [41 60]) ("TlHelp32.h" include t nil nil [61 82]) ("CommCtrl.h" include t nil nil [116 137]) ("string.h" include t nil nil [138 157]) ("main.h" include nil nil nil [191 208]) ("core.h" include nil nil nil [209 226]) ("option.h" include nil nil nil [227 246]) ("startupCheck.h" include nil nil nil [247 272]) ("injectByCreating" function ("int") (("hwnd" variable ("HWND" type "class") nil nil nil nil [296 306])) nil nil nil [275 5434]) ("injectByOpening" function ("int") (("hwnd" variable ("HWND" type "class") nil nil nil nil [5619 5629])) nil nil nil [5599 10011]))
+    )
+   (semanticdb-table "core.h"
+    :file "core.h"
+    :pointmax 224
+    :major-mode 'c-mode
+    :tokens '(("core" variable nil nil ((const . t)) nil nil [14 45]) ("injectByCreating" function ("int") (("hwnd" variable ("HWND" type "class") nil nil nil nil [63 73])) ((prototype . t)) nil nil [42 74]) ("injectByOpening" function ("int") (("hwnd" variable ("HWND" type "class") nil nil nil nil [95 105])) ((prototype . t)) nil nil [75 106]) ("logBuff" variable "char" nil ((dereference . 1)) nil nil [121 140]) ("fileNameProcess" variable "char" nil ((dereference . 1)) nil nil [141 168]) ("fileNameDll" variable "char" nil ((dereference . 1)) nil nil [169 192]) ("createProcessEdit" variable ("HWND" type "class") nil nil nil nil [193 216]))
+    )
+   (semanticdb-table "option.h"
+    :file "option.h"
+    :pointmax 83
+    :major-mode 'c-mode
+    :tokens '(("checkStayOnTop" function ("void") (("hwnd" variable ("HWND" type "class") nil nil nil nil [36 46])) ((prototype . t)) nil nil [16 47]) ("checkCloseWhenDone" function ("void") (("hwnd" variable ("HWND" type "class") nil nil nil nil [72 82])) ((prototype . t)) nil nil [48 83]))
+    )
+   )
+  )
