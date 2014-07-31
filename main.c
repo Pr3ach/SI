@@ -1,8 +1,8 @@
 /*
 
-Storm Inj3ctor By Pr3acher @___Yass
+Storm Inj3ctor By Pr3acher @__Pr3__
 
-v1.6 *Not Done Yet*
+v1.6 
 - Info (in log file/window) about injected dll [OK]
 - Added PPID name [OK]
 - Options checkbox in separated window [OK]
