@@ -1,0 +1,23 @@
+1.7
+- Bug fixes
+- Major code cleanup
+- Switched to gcc
+
+1.6
+- Info (in log file/window) about injected dll [OK]
+- Added PPID name [OK]
+- Options checkbox in separated window [OK]
+
+1.5
+- Extend writeLog call to errors etc. [OK]
+- Change writeLog: append text with SetFilePointer() [OK]
+- Store last dll/exe paths in SI.ini [OK]
+- Edit DLL is no longer readonly [OK]
+- Edits support RETURN and TAB keys [OK]
+
+1.4
+- Fixed several bugs concerning SI.ini config file [OK]
+- Added ability to save a log [OK]
+- Fixed a bug in date/time format [OK]
+
+...
